@@ -1,0 +1,21 @@
+.navbar-content {
+  margin: auto;
+}
+.nav-space {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+img {
+  filter: brightness(60%);
+}
+.container-fluid {
+  position: relative;
+  color: white;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.top-left {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+}

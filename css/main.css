@@ -1,0 +1,45 @@
+body{
+  text-align: center;
+}
+.navbar-content {
+  margin: auto;
+}
+.nav-space {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.home-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 0px;
+}
+img {
+  filter: brightness(70%);
+}
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.col {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+#description {
+  margin: auto;
+  width: 70%;
+  padding: 30px;
+}
