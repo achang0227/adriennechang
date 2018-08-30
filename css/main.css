@@ -1,24 +1,33 @@
+/* GENERAL */
 body{
   text-align: center;
+  max-width: 900px;
+  margin: auto;
 }
+img {
+  filter: brightness(70%);
+}
+
+/* NAVIGATION BAR */
 .navbar{
   background-color: white;
+  font-size: 20px;
 }
 .navbar-content {
   margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .nav-space {
   padding-left: 40px;
   padding-right: 40px;
 }
+
+/* CONTAINERS */
 .home-container {
   position: relative;
   text-align: center;
   color: white;
-  padding: 0px;
-}
-img {
-  filter: brightness(70%);
 }
 .centered-text {
   position: absolute;
@@ -29,6 +38,11 @@ img {
 .container-fluid {
     padding-right: 0px;
     padding-left: 0px;
+    background-color: #f7f7f7;
+}
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
 }
 .col {
   padding-right: 0px;
@@ -41,6 +55,8 @@ img {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+/* CONTACT INFO */
 #description {
   margin: auto;
   width: 70%;

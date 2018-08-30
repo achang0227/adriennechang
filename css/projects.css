@@ -1,13 +1,25 @@
+/* GENERAL */
+body{
+  max-width: 900px;
+  margin: auto;
+}
+
+/* NAVIGATION BAR */
 .navbar{
   background-color: white;
+  font-size: 20px;
 }
 .navbar-content {
   margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .nav-space {
   padding-left: 40px;
   padding-right: 40px;
 }
+
+/* CONTAINERS */
 .container-fluid {
   position: relative;
   padding-left: 0px;
