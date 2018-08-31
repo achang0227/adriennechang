@@ -3,6 +3,16 @@ body{
   max-width: 900px;
   margin: auto;
 }
+img{
+  max-width: 400px;
+}
+h3{
+  padding: 10px;
+  font-size: 2.5vw;
+}
+p{
+  line-height: 2;
+}
 
 /* NAVIGATION BAR */
 .navbar{
@@ -20,13 +30,14 @@ body{
 }
 
 /* CONTAINERS */
+.projects {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .container-fluid {
   position: relative;
   padding-left: 0px;
   padding-right: 0px;
-  color: white;
-  font-size: 30px;
-  background-color: black;
 }
 .top-left {
   position: absolute;
@@ -41,26 +52,19 @@ body{
   padding-left: 0px;
   padding-right: 0px;
 }
-.col:hover .image {
-  filter: brightness(40%);
+
+#leftcol {
+  margin-right: 15px;
 }
-.col:hover .middle {
-  opacity: 1;
+#rightcol{
+  background-color: #f7f7f7;
 }
-.image {
-  transition: .5s ease;
+#text{
+  font-size: 1.5vw;
 }
-.middle {
-  transition: .5s ease;
-  opacity: 0;
+#text-bottom{
+  font-size: 1.7vw;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  width: 90%;
-}
-a:hover{
-  color:white;
+  bottom: 0;
+  right: 20px;
 }

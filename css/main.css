@@ -5,7 +5,10 @@ body{
   margin: auto;
 }
 img {
-  filter: brightness(70%);
+  filter: brightness(50%);
+}
+p{
+  line-height: 2;
 }
 
 /* NAVIGATION BAR */
